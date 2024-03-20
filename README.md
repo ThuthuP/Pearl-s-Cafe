@@ -1,4 +1,6 @@
-Pearl's Cafe - Online Coffee Shop
+Pearl's Cafe 
+
+Online Coffee Shop
 Welcome to Pearl's Cafe, your go-to destination for delicious coffee and pastries! This online coffee shop project allows users to explore our menu, learn about our cafe, and even place orders directly through the website.
 
 Features
@@ -12,7 +14,7 @@ Backend: PHP
 Database: MySQL
 External Libraries: Font Awesome (for icons)
 Setup Instructions
-Clone the repository to your local machine: git clone https://github.com/yourusername/pearls-cafe.git
+Clone the repository to your local machine: git clone https://github.com/ThuthuP/pearls-cafe.git
 Set up a local development environment with Apache (or another web server) and MySQL.
 Import the database schema using the provided SQL file: pearls_cafe_database.sql.
 Update the database connection details in the order_submission.php script to match your local environment.
