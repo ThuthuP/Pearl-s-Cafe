@@ -1,0 +1,101 @@
+CTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearl's Cafe - Online Coffee Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Slick Carousel CSS -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+    <header style="text-align: center; position: relative;">
+        <h1 style="font-size: 36px; font-weight: bold; color: black;">Pearl's Cafe</h1>
+        <p style="font-size: 24px; font-weight: bold; color: black;">Welcome to our online coffee shop</p>
+        <a href="#menu" style="position: absolute; top: 20px; right: 20px;"><i class="fas fa-shopping-cart cart-icon"></i></a>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle">&#9776;</label>
+        <nav class="nav-links">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Your existing HTML content -->
+    <div class="container" id="home">
+        <h1 style="color: white;">Pearl's Cafe</h1>
+        <p style="color: white;">Welcome to Pearl's Cafe, where every cup tells a story.</p>
+        <p style="color: white;">Our cafe offers a cozy atmosphere to enjoy a wide variety of delicious coffees, pastries, and snacks. Whether you're catching up with friends, having a casual meeting, or simply taking a moment for yourself, we have something to delight your taste buds.</p>
+    </div>
+    <section id="menu">
+        <h2 style="color: white;">Our Menu</h2>
+        <div class="menu-item" style="color: white;">
+            <h3>Coffee Selection</h3>
+            <ul>
+                <li>Ethiopian Blend - A rich and bold coffee with hints of fruity notes. $5.99</li>
+                <li>Italian Espresso - Intense and robust, perfect for espresso lovers. $4.99</li>
+                <li>Colombian Decaf - Smooth and balanced, ideal for a relaxing cup. $5.49</li>
+            </ul>
+            <form id="coffee-form">
+                <label for="coffee_selection">Select Coffee:</label>
+                <select id="coffee_selection" name="coffee_selection">
+                    <option value="Ethiopian Blend">Ethiopian Blend</option>
+                    <option value="Italian Espresso">Italian Espresso</option>
+                    <option value="Colombian Decaf">Colombian Decaf</option>
+                </select>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                <br>
+                <button type="submit">Add to Cart</button>
+            </form>
+        </div>
+        <div class="menu-item" style="color: white;">
+            <h3>Pastries &amp; Desserts</h3>
+            <ul>
+                <li>Freshly Baked Croissants - Delicious and flaky croissants. $2.99</li>
+                <li>Chocolate Fudge Cake - Rich and indulgent chocolate cake. $4.99</li>
+                <li>Blueberry Muffins - Moist and flavorful blueberry muffins. $3.49</li>
+            </ul>
+            <form id="pastry-form">
+                <label for="pastry_selection">Select Pastry:</label>
+                <select id="pastry_selection" name="pastry_selection">
+                    <option value="Freshly Baked Croissants">Freshly Baked Croissants</option>
+                    <option value="Chocolate Fudge Cake">Chocolate Fudge Cake</option>
+                    <option value="Blueberry Muffins">Blueberry Muffins</option>
+                </select>
+                <br>
+                <label for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" value="1">
+                <br>
+                <button type="submit">Add to Cart</button>
+            </form>
+        </div>
+    </section>
+    <section id="about">
+        <h2 style="color: white;">About Pearl's Cafe</h2>
+        <p style="color: white;">Pearl's Cafe has been serving the finest coffee and pastries since 2005. Our passion for quality and dedication to customer satisfaction sets us apart.</p>
+        <p style="color: white;">We source our coffee beans from sustainable farms and prioritize eco-friendly practices in our operations.</p>
+        <p style="color: white;">Meet our team of baristas who are dedicated to crafting the perfect cup of coffee for you.</p>
+    </section>
+    <section id="contact">
+        <h2 style="color: white;">Contact Us</h2>
+        <p style="color: white;">Visit us at:</p>
+        <address style="color: white;">
+            123 Pearl Street, Cityville, Durban, 4000<br>
+            Phone: (27) 456-7890<br>
+            Email: info@pearlscafe.com
+        </address>
+        <p style="color: white;">Business Hours:</p>
+        <p style="color: white;">Monday - Friday: 7:00 AM - 8:00 PM</p>
+        <p style="color: white;">Saturday - Sunday: 8:00 AM - 6:00 PM</p>
+        <!-- Add an inquiry form or social media links -->
+    </section>
+</body>
+</html>
+
+
